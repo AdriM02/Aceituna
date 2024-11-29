@@ -1,0 +1,701 @@
+{
+  "almazaras": [
+    {
+      "id": 1,
+      "nombre": "Almazara 1",
+      "ubicacion": "Ubicación 1",
+      "capacidad": 500.0
+    },
+    {
+      "id": 2,
+      "nombre": "Almazara 2",
+      "ubicacion": "Ubicación 2",
+      "capacidad": 450.0
+    },
+    {
+      "id": 3,
+      "nombre": "Almazara 3",
+      "ubicacion": "Ubicación 3",
+      "capacidad": 600.0
+    },
+    {
+      "id": 4,
+      "nombre": "Almazara 4",
+      "ubicacion": "Ubicación 4",
+      "capacidad": 550.0
+    }
+  ],
+  "cuadrillas": [
+    {
+      "id": 1,
+      "nombre": "Cuadrilla 1",
+      "supervisor_id": 52
+    },
+    {
+      "id": 2,
+      "nombre": "Cuadrilla 2",
+      "supervisor_id": 58
+    },
+    {
+      "id": 3,
+      "nombre": "Cuadrilla 3",
+      "supervisor_id": 66
+    },
+    {
+      "id": 4,
+      "nombre": "Cuadrilla 4",
+      "supervisor_id": 78
+    },
+    {
+      "id": 5,
+      "nombre": "Cuadrilla 5",
+      "supervisor_id": 83
+    },
+    {
+      "id": 6,
+      "nombre": "Cuadrilla 6",
+      "supervisor_id": 92
+    },
+    {
+      "id": 7,
+      "nombre": "Cuadrilla 7",
+      "supervisor_id": 94
+    },
+    {
+      "id": 8,
+      "nombre": "Cuadrilla 8",
+      "supervisor_id": 96
+    },
+    {
+      "id": 9,
+      "nombre": "Cuadrilla 9",
+      "supervisor_id": 98
+    },
+    {
+      "id": 10,
+      "nombre": "Cuadrilla 10",
+      "supervisor_id": 101
+    },
+    {
+      "id": 11,
+      "nombre": "Cuadrilla 11",
+      "supervisor_id": 101
+    },
+    {
+      "id": 12,
+      "nombre": "Cuadrilla 12",
+      "supervisor_id": 101
+    }
+  ],
+  "olivares": [
+    {
+      "id": 1,
+      "ubicacion": "Olivar 1",
+      "hectareas": 5.5,
+      "produccionAnual": 200.0
+    },
+    {
+      "id": 2,
+      "ubicacion": "Olivar 2",
+      "hectareas": 6.0,
+      "produccionAnual": 250.0
+    },
+    {
+      "id": 3,
+      "ubicacion": "Olivar 3",
+      "hectareas": 4.8,
+      "produccionAnual": 180.0
+    },
+    {
+      "id": 4,
+      "ubicacion": "Olivar 4",
+      "hectareas": 5.0,
+      "produccionAnual": 210.0
+    },
+    {
+      "id": 5,
+      "ubicacion": "Olivar 5",
+      "hectareas": 7.2,
+      "produccionAnual": 300.0
+    },
+    {
+      "id": 6,
+      "ubicacion": "Olivar 6",
+      "hectareas": 6.5,
+      "produccionAnual": 275.0
+    },
+    {
+      "id": 7,
+      "ubicacion": "Olivar 7",
+      "hectareas": 5.8,
+      "produccionAnual": 225.0
+    },
+    {
+      "id": 8,
+      "ubicacion": "Olivar 8",
+      "hectareas": 4.9,
+      "produccionAnual": 190.0
+    },
+    {
+      "id": 9,
+      "ubicacion": "Olivar 9",
+      "hectareas": 6.7,
+      "produccionAnual": 310.0
+    },
+    {
+      "id": 10,
+      "ubicacion": "Olivar 10",
+      "hectareas": 5.3,
+      "produccionAnual": 220.0
+    },
+    {
+      "id": 11,
+      "ubicacion": "Olivar 11",
+      "hectareas": 6.1,
+      "produccionAnual": 260.0
+    },
+    {
+      "id": 12,
+      "ubicacion": "Olivar 12",
+      "hectareas": 7.0,
+      "produccionAnual": 295.0
+    },
+    {
+      "id": 13,
+      "ubicacion": "Olivar 13",
+      "hectareas": 5.6,
+      "produccionAnual": 230.0
+    },
+    {
+      "id": 14,
+      "ubicacion": "Olivar 14",
+      "hectareas": 4.7,
+      "produccionAnual": 185.0
+    },
+    {
+      "id": 15,
+      "ubicacion": "Olivar 15",
+      "hectareas": 6.8,
+      "produccionAnual": 320.0
+    },
+    {
+      "id": 16,
+      "ubicacion": "Olivar 16",
+      "hectareas": 5.2,
+      "produccionAnual": 215.0
+    },
+    {
+      "id": 17,
+      "ubicacion": "Olivar 17",
+      "hectareas": 6.3,
+      "produccionAnual": 280.0
+    },
+    {
+      "id": 18,
+      "ubicacion": "Olivar 18",
+      "hectareas": 7.3,
+      "produccionAnual": 325.0
+    },
+    {
+      "id": 19,
+      "ubicacion": "Olivar 19",
+      "hectareas": 5.4,
+      "produccionAnual": 240.0
+    },
+    {
+      "id": 20,
+      "ubicacion": "Olivar 20",
+      "hectareas": 6.9,
+      "produccionAnual": 310.0
+    }
+  ],
+  "producciones": [
+    {
+      "id": 1,
+      "cuadrilla_id": 1,
+      "olivar_id": 1,
+      "almazara_id": 1,
+      "fecha": "2023-10-01",
+      "cantidadRecolectada": 150
+    },
+    {
+      "id": 2,
+      "cuadrilla_id": 2,
+      "olivar_id": 2,
+      "almazara_id": 2,
+      "fecha": "2023-10-02",
+      "cantidadRecolectada": 170
+    },
+    {
+      "id": 3,
+      "cuadrilla_id": 3,
+      "olivar_id": 3,
+      "almazara_id": 3,
+      "fecha": "2023-10-03",
+      "cantidadRecolectada": 160
+    },
+    {
+      "id": 4,
+      "cuadrilla_id": 4,
+      "olivar_id": 4,
+      "almazara_id": 4,
+      "fecha": "2023-10-04",
+      "cantidadRecolectada": 180
+    },
+    {
+      "id": 5,
+      "cuadrilla_id": 5,
+      "olivar_id": 5,
+      "almazara_id": 1,
+      "fecha": "2023-10-05",
+      "cantidadRecolectada": 200
+    },
+    {
+      "id": 6,
+      "cuadrilla_id": 6,
+      "olivar_id": 6,
+      "almazara_id": 2,
+      "fecha": "2023-10-06",
+      "cantidadRecolectada": 190
+    },
+    {
+      "id": 7,
+      "cuadrilla_id": 7,
+      "olivar_id": 7,
+      "almazara_id": 3,
+      "fecha": "2023-10-07",
+      "cantidadRecolectada": 175
+    },
+    {
+      "id": 8,
+      "cuadrilla_id": 8,
+      "olivar_id": 8,
+      "almazara_id": 4,
+      "fecha": "2023-10-08",
+      "cantidadRecolectada": 185
+    },
+    {
+      "id": 9,
+      "cuadrilla_id": 9,
+      "olivar_id": 9,
+      "almazara_id": 1,
+      "fecha": "2023-10-09",
+      "cantidadRecolectada": 165
+    },
+    {
+      "id": 10,
+      "cuadrilla_id": 10,
+      "olivar_id": 10,
+      "almazara_id": 2,
+      "fecha": "2023-10-10",
+      "cantidadRecolectada": 195
+    },
+    {
+      "id": 11,
+      "cuadrilla_id": 1,
+      "olivar_id": 11,
+      "almazara_id": 3,
+      "fecha": "2023-10-11",
+      "cantidadRecolectada": 180
+    },
+    {
+      "id": 12,
+      "cuadrilla_id": 2,
+      "olivar_id": 12,
+      "almazara_id": 4,
+      "fecha": "2023-10-12",
+      "cantidadRecolectada": 170
+    },
+    {
+      "id": 13,
+      "cuadrilla_id": 1,
+      "olivar_id": 1,
+      "almazara_id": 1,
+      "fecha": "2024-10-01",
+      "cantidadRecolectada": 150
+    },
+    {
+      "id": 14,
+      "cuadrilla_id": 3,
+      "olivar_id": 1,
+      "almazara_id": 2,
+      "fecha": "2024-09-01",
+      "cantidadRecolectada": 300
+    },
+    {
+      "id": 15,
+      "cuadrilla_id": 1,
+      "olivar_id": 4,
+      "almazara_id": 2,
+      "fecha": "2021-02-01",
+      "cantidadRecolectada": 600
+    },
+    {
+      "id": 16,
+      "cuadrilla_id": 1,
+      "olivar_id": 4,
+      "almazara_id": 2,
+      "fecha": "2022-02-01",
+      "cantidadRecolectada": 6000
+    }
+  ],
+  "trabajadores": [
+    {
+      "id": 51,
+      "nombre": "Trabajador 1",
+      "edad": 25,
+      "puesto": "Recolector",
+      "salario": 1200
+    },
+    {
+      "id": 52,
+      "nombre": "Trabajador 2",
+      "edad": 28,
+      "puesto": "Supervisor",
+      "salario": 1500
+    },
+    {
+      "id": 53,
+      "nombre": "Trabajador 3",
+      "edad": 30,
+      "puesto": "Recolector",
+      "salario": 1100
+    },
+    {
+      "id": 54,
+      "nombre": "Trabajador 4",
+      "edad": 22,
+      "puesto": "Recolector",
+      "salario": 1150
+    },
+    {
+      "id": 55,
+      "nombre": "Trabajador 5",
+      "edad": 27,
+      "puesto": "Recolector",
+      "salario": 1600
+    },
+    {
+      "id": 56,
+      "nombre": "Trabajador 6",
+      "edad": 26,
+      "puesto": "Recolector",
+      "salario": 1300
+    },
+    {
+      "id": 57,
+      "nombre": "Trabajador 7",
+      "edad": 29,
+      "puesto": "Recolector",
+      "salario": 1250
+    },
+    {
+      "id": 58,
+      "nombre": "Trabajador 8",
+      "edad": 24,
+      "puesto": "Supervisor",
+      "salario": 1550
+    },
+    {
+      "id": 59,
+      "nombre": "Trabajador 9",
+      "edad": 31,
+      "puesto": "Recolector",
+      "salario": 1200
+    },
+    {
+      "id": 60,
+      "nombre": "Trabajador 10",
+      "edad": 33,
+      "puesto": "Recolector",
+      "salario": 1650
+    },
+    {
+      "id": 61,
+      "nombre": "Trabajador 11",
+      "edad": 26,
+      "puesto": "Recolector",
+      "salario": 1100
+    },
+    {
+      "id": 62,
+      "nombre": "Trabajador 12",
+      "edad": 27,
+      "puesto": "Recolector",
+      "salario": 1180
+    },
+    {
+      "id": 63,
+      "nombre": "Trabajador 13",
+      "edad": 28,
+      "puesto": "Recolector",
+      "salario": 1190
+    },
+    {
+      "id": 64,
+      "nombre": "Trabajador 14",
+      "edad": 25,
+      "puesto": "Recolector",
+      "salario": 1500
+    },
+    {
+      "id": 65,
+      "nombre": "Trabajador 15",
+      "edad": 34,
+      "puesto": "Recolector",
+      "salario": 1300
+    },
+    {
+      "id": 66,
+      "nombre": "Trabajador 16",
+      "edad": 29,
+      "puesto": "Supervisor",
+      "salario": 1600
+    },
+    {
+      "id": 67,
+      "nombre": "Trabajador 17",
+      "edad": 30,
+      "puesto": "Recolector",
+      "salario": 1250
+    },
+    {
+      "id": 68,
+      "nombre": "Trabajador 18",
+      "edad": 22,
+      "puesto": "Recolector",
+      "salario": 1100
+    },
+    {
+      "id": 69,
+      "nombre": "Trabajador 19",
+      "edad": 23,
+      "puesto": "Recolector",
+      "salario": 1550
+    },
+    {
+      "id": 70,
+      "nombre": "Trabajador 20",
+      "edad": 31,
+      "puesto": "Recolector",
+      "salario": 1400
+    },
+    {
+      "id": 71,
+      "nombre": "Trabajador 21",
+      "edad": 32,
+      "puesto": "Recolector",
+      "salario": 1220
+    },
+    {
+      "id": 72,
+      "nombre": "Trabajador 22",
+      "edad": 26,
+      "puesto": "Recolector",
+      "salario": 1500
+    },
+    {
+      "id": 73,
+      "nombre": "Trabajador 23",
+      "edad": 24,
+      "puesto": "Recolector",
+      "salario": 1200
+    },
+    {
+      "id": 74,
+      "nombre": "Trabajador 24",
+      "edad": 35,
+      "puesto": "Recolector",
+      "salario": 1300
+    },
+    {
+      "id": 75,
+      "nombre": "Trabajador 25",
+      "edad": 29,
+      "puesto": "Recolector",
+      "salario": 1550
+    },
+    {
+      "id": 76,
+      "nombre": "Trabajador 26",
+      "edad": 33,
+      "puesto": "Recolector",
+      "salario": 1200
+    },
+    {
+      "id": 77,
+      "nombre": "Trabajador 27",
+      "edad": 28,
+      "puesto": "Recolector",
+      "salario": 1180
+    },
+    {
+      "id": 78,
+      "nombre": "Trabajador 28",
+      "edad": 30,
+      "puesto": "Supervisor",
+      "salario": 1450
+    },
+    {
+      "id": 79,
+      "nombre": "Trabajador 29",
+      "edad": 27,
+      "puesto": "Recolector",
+      "salario": 1250
+    },
+    {
+      "id": 80,
+      "nombre": "Trabajador 30",
+      "edad": 36,
+      "puesto": "Recolector",
+      "salario": 1150
+    },
+    {
+      "id": 81,
+      "nombre": "Trabajador 31",
+      "edad": 23,
+      "puesto": "Recolector",
+      "salario": 1600
+    },
+    {
+      "id": 82,
+      "nombre": "Trabajador 32",
+      "edad": 22,
+      "puesto": "Recolector",
+      "salario": 1300
+    },
+    {
+      "id": 83,
+      "nombre": "Trabajador 33",
+      "edad": 29,
+      "puesto": "Supervisor",
+      "salario": 1550
+    },
+    {
+      "id": 84,
+      "nombre": "Trabajador 34",
+      "edad": 31,
+      "puesto": "Recolector",
+      "salario": 1100
+    },
+    {
+      "id": 85,
+      "nombre": "Trabajador 35",
+      "edad": 27,
+      "puesto": "Recolector",
+      "salario": 1500
+    },
+    {
+      "id": 86,
+      "nombre": "Trabajador 36",
+      "edad": 34,
+      "puesto": "Recolector",
+      "salario": 1250
+    },
+    {
+      "id": 87,
+      "nombre": "Trabajador 37",
+      "edad": 33,
+      "puesto": "Recolector",
+      "salario": 1350
+    },
+    {
+      "id": 88,
+      "nombre": "Trabajador 38",
+      "edad": 28,
+      "puesto": "Supervisor",
+      "salario": 1600
+    },
+    {
+      "id": 89,
+      "nombre": "Trabajador 39",
+      "edad": 26,
+      "puesto": "Recolector",
+      "salario": 1180
+    },
+    {
+      "id": 90,
+      "nombre": "Trabajador 40",
+      "edad": 32,
+      "puesto": "Recolector",
+      "salario": 1550
+    },
+    {
+      "id": 91,
+      "nombre": "Trabajador 41",
+      "edad": 24,
+      "puesto": "Recolector",
+      "salario": 1250
+    },
+    {
+      "id": 92,
+      "nombre": "Trabajador 42",
+      "edad": 25,
+      "puesto": "Supervisor",
+      "salario": 1450
+    },
+    {
+      "id": 93,
+      "nombre": "Trabajador 43",
+      "edad": 30,
+      "puesto": "Recolector",
+      "salario": 1150
+    },
+    {
+      "id": 94,
+      "nombre": "Trabajador 44",
+      "edad": 35,
+      "puesto": "Supervisor",
+      "salario": 1400
+    },
+    {
+      "id": 95,
+      "nombre": "Trabajador 45",
+      "edad": 23,
+      "puesto": "Recolector",
+      "salario": 1200
+    },
+    {
+      "id": 96,
+      "nombre": "Trabajador 46",
+      "edad": 29,
+      "puesto": "Supervisor",
+      "salario": 1500
+    },
+    {
+      "id": 97,
+      "nombre": "Trabajador 47",
+      "edad": 27,
+      "puesto": "Recolector",
+      "salario": 1300
+    },
+    {
+      "id": 98,
+      "nombre": "Trabajador 48",
+      "edad": 31,
+      "puesto": "Supervisor",
+      "salario": 1550
+    },
+    {
+      "id": 99,
+      "nombre": "Trabajador 49",
+      "edad": 34,
+      "puesto": "Recolector",
+      "salario": 1250
+    },
+    {
+      "id": 100,
+      "nombre": "Trabajador 50",
+      "edad": 32,
+      "puesto": "Recolector",
+      "salario": 1200
+    },
+    {
+      "id": 101,
+      "nombre": "Paco",
+      "edad": 29,
+      "puesto": "Supervisor",
+      "salario": 2100
+    }
+  ]
+}

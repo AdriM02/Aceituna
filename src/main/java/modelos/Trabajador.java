@@ -1,10 +1,20 @@
 package modelos;
 
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement(name = "Trabajador")
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = {"id","nombre","edad","puesto","salario"})
 public class Trabajador {
+    @XmlElement(name = "id")
     private int id;
+    @XmlElement(name = "nombre")
     private String nombre;
+    @XmlElement(name = "edad")
     private int edad;
+    @XmlElement(name = "puesto")
     private  String puesto;
+    @XmlElement(name = "salario")
     private int salario;
 
     public Trabajador(int id, String nombre, int edad, String puesto, int salario) {
@@ -13,6 +23,9 @@ public class Trabajador {
         this.edad = edad;
         this.puesto = puesto;
         this.salario = salario;
+    }
+
+    public Trabajador() {
     }
 
     public Trabajador(String nombre, int edad, String puesto, int salario) {

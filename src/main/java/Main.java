@@ -1,4 +1,8 @@
 import DAO.*;
+import conexion.DatabaseConnection;
+import marshalling.Base;
+import marshalling.MarshallingJSON;
+import marshalling.MarshallingXML;
 import modelos.*;
 
 import java.sql.SQLException;
@@ -22,9 +26,15 @@ public class Main {
             "determinado olivar\n" +
             "9. Mostrar la producción hasta una determinada fecha, de una\n" +
             "cuadrilla determinada \n" +
-            "10.Salir";
+            "10 Hacer Marshalling XML\n"+
+            "11 Hacer Unmarshalling XML\n"+
+            "12 Hacer Marshalling JSON\n"+
+            "13 Hacer Unmarshalling JSON\n"+
+            "0.Salir";
 
     public static void main(String[] args) throws SQLException {
+        DatabaseConnection.hacerTrigger();
+        
         String fecha = "";
         CuadrillaDAO cuadrillaDAO = new CuadrillaDAO();
         int idCuadrilla =0;
@@ -43,11 +53,16 @@ public class Main {
         TrabajadorDAO trabajadorDAO = new TrabajadorDAO();
         int idTrabajador;
         List<Trabajador> trabajadores;
+        MarshallingXML marshallingXML = new MarshallingXML();
+        MarshallingJSON marshallingJSON = new MarshallingJSON();
+
         Scanner sc = new Scanner(System.in);
         System.out.println(menuPrincipal);
         String opcion = sc.nextLine();
 
-        while (!Objects.equals(opcion, "10")) {
+
+
+        while (!Objects.equals(opcion, "0")) {
             switch (opcion) {
                 case "1": {
 
@@ -236,6 +251,33 @@ public class Main {
                     }
 
                     sc.nextLine();
+                    System.out.println("\n"+menuPrincipal);
+                    opcion = sc.nextLine();
+                    break;
+                }
+
+                case "10":{
+                    marshallingXML.hacerMarshalling(Base.devBase());
+                    System.out.println("\n"+menuPrincipal);
+                    opcion = sc.nextLine();
+                    break;
+                }
+
+                case "11":{
+                    marshallingXML.hacerUnmarshalling();
+                    System.out.println("\n"+menuPrincipal);
+                    opcion = sc.nextLine();
+                    break;
+                }
+
+                case "12":{
+                    marshallingJSON.hacerMarshallingJSON(Base.devBase());
+                    System.out.println("\n"+menuPrincipal);
+                    opcion = sc.nextLine();
+                    break;
+                }
+                case "13":{
+                    marshallingJSON.hacerUnmarshallingJSON();
                     System.out.println("\n"+menuPrincipal);
                     opcion = sc.nextLine();
                     break;

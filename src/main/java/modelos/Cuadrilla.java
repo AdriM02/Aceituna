@@ -1,14 +1,25 @@
 package modelos;
 
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement(name = "Cuadrilla")
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = {"id","nombre","supervisor_id"})
 public class Cuadrilla {
+    @XmlElement(name = "id")
     private int id;
+    @XmlElement(name = "nombre")
     private String nombre;
+    @XmlElement(name = "supervisor_id")
     private int supervisor_id;
 
     public Cuadrilla(int id, String nombre, int supervisor_id) {
         this.id = id;
         this.nombre = nombre;
         this.supervisor_id = supervisor_id;
+    }
+
+    public Cuadrilla() {
     }
 
     public Cuadrilla(String nombre, int supervisor_id) {

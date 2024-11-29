@@ -1,9 +1,22 @@
 package modelos;
 
+
+import javax.xml.bind.annotation.*;
+
+
+@XmlRootElement(name= "Almazara")
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = {"id","nombre","ubicacion","capacidad"})
 public class Almazara {
+    @XmlElement(name = "id")
     private int id;
+
+    @XmlElement(name = "nombre")
     private String nombre;
+
+    @XmlElement(name="ubicacion")
     private String ubicacion;
+    @XmlElement(name = "capacidad")
     private  Double capacidad;
 
     public Almazara(int id, String nombre, String ubicacion, Double capacidad) {
@@ -11,6 +24,9 @@ public class Almazara {
         this.nombre = nombre;
         this.ubicacion = ubicacion;
         this.capacidad =  capacidad;
+    }
+
+    public Almazara() {
     }
 
     public Almazara(String nombre, String ubicacion, Double capacidad) {

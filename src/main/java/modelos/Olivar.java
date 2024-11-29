@@ -1,9 +1,18 @@
 package modelos;
 
+import javax.xml.bind.annotation.*;
+
+@XmlRootElement(name = "Olivar")
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(propOrder = {"id","ubicacion","hectareas","produccionAnual"})
 public class Olivar {
+    @XmlElement(name = "id")
     private int id;
+    @XmlElement(name = "ubicacion")
     private String ubicacion;
+    @XmlElement(name = "hectareas")
     private  Double hectareas;
+    @XmlElement(name = "produccionAnual")
     private Double produccionAnual;
 
     public Olivar(int id, String ubicacion, Double hectareas, Double produccionAnual) {
@@ -11,6 +20,9 @@ public class Olivar {
         this.ubicacion = ubicacion;
         this.hectareas = hectareas;
         this.produccionAnual = produccionAnual;
+    }
+
+    public Olivar() {
     }
 
     public Olivar(String ubicacion, Double hectareas, Double produccionAnual) {

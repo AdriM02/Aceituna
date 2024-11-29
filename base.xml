@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<base>
+    <Almazaras>
+        <Almazara>
+            <id>1</id>
+            <nombre>Almazara 1</nombre>
+            <ubicacion>Ubicación 1</ubicacion>
+            <capacidad>500.0</capacidad>
+        </Almazara>
+        <Almazara>
+            <id>2</id>
+            <nombre>Almazara 2</nombre>
+            <ubicacion>Ubicación 2</ubicacion>
+            <capacidad>450.0</capacidad>
+        </Almazara>
+        <Almazara>
+            <id>3</id>
+            <nombre>Almazara 3</nombre>
+            <ubicacion>Ubicación 3</ubicacion>
+            <capacidad>600.0</capacidad>
+        </Almazara>
+        <Almazara>
+            <id>4</id>
+            <nombre>Almazara 4</nombre>
+            <ubicacion>Ubicación 4</ubicacion>
+            <capacidad>550.0</capacidad>
+        </Almazara>
+    </Almazaras>
+    <Cuadrillas>
+        <Cuadrilla>
+            <id>1</id>
+            <nombre>Cuadrilla 1</nombre>
+            <supervisor_id>52</supervisor_id>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>2</id>
+            <nombre>Cuadrilla 2</nombre>
+            <supervisor_id>58</supervisor_id>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>3</id>
+            <nombre>Cuadrilla 3</nombre>
+            <supervisor_id>66</supervisor_id>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>4</id>
+            <nombre>Cuadrilla 4</nombre>
+            <supervisor_id>78</supervisor_id>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>5</id>
+            <nombre>Cuadrilla 5</nombre>
+            <supervisor_id>83</supervisor_id>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>6</id>
+            <nombre>Cuadrilla 6</nombre>
+            <supervisor_id>92</supervisor_id>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>7</id>
+            <nombre>Cuadrilla 7</nombre>
+            <supervisor_id>94</supervisor_id>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>8</id>
+            <nombre>Cuadrilla 8</nombre>
+            <supervisor_id>96</supervisor_id>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>9</id>
+            <nombre>Cuadrilla 9</nombre>
+            <supervisor_id>98</supervisor_id>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>10</id>
+            <nombre>Cuadrilla 10</nombre>
+            <supervisor_id>101</supervisor_id>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>11</id>
+            <nombre>Cuadrilla 11</nombre>
+            <supervisor_id>101</supervisor_id>
+        </Cuadrilla>
+        <Cuadrilla>
+            <id>12</id>
+            <nombre>Cuadrilla 12</nombre>
+            <supervisor_id>101</supervisor_id>
+        </Cuadrilla>
+    </Cuadrillas>
+    <Olivares>
+        <Olivar>
+            <id>1</id>
+            <ubicacion>Olivar 1</ubicacion>
+            <hectareas>5.5</hectareas>
+            <produccionAnual>200.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>2</id>
+            <ubicacion>Olivar 2</ubicacion>
+            <hectareas>6.0</hectareas>
+            <produccionAnual>250.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>3</id>
+            <ubicacion>Olivar 3</ubicacion>
+            <hectareas>4.8</hectareas>
+            <produccionAnual>180.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>4</id>
+            <ubicacion>Olivar 4</ubicacion>
+            <hectareas>5.0</hectareas>
+            <produccionAnual>210.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>5</id>
+            <ubicacion>Olivar 5</ubicacion>
+            <hectareas>7.2</hectareas>
+            <produccionAnual>300.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>6</id>
+            <ubicacion>Olivar 6</ubicacion>
+            <hectareas>6.5</hectareas>
+            <produccionAnual>275.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>7</id>
+            <ubicacion>Olivar 7</ubicacion>
+            <hectareas>5.8</hectareas>
+            <produccionAnual>225.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>8</id>
+            <ubicacion>Olivar 8</ubicacion>
+            <hectareas>4.9</hectareas>
+            <produccionAnual>190.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>9</id>
+            <ubicacion>Olivar 9</ubicacion>
+            <hectareas>6.7</hectareas>
+            <produccionAnual>310.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>10</id>
+            <ubicacion>Olivar 10</ubicacion>
+            <hectareas>5.3</hectareas>
+            <produccionAnual>220.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>11</id>
+            <ubicacion>Olivar 11</ubicacion>
+            <hectareas>6.1</hectareas>
+            <produccionAnual>260.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>12</id>
+            <ubicacion>Olivar 12</ubicacion>
+            <hectareas>7.0</hectareas>
+            <produccionAnual>295.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>13</id>
+            <ubicacion>Olivar 13</ubicacion>
+            <hectareas>5.6</hectareas>
+            <produccionAnual>230.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>14</id>
+            <ubicacion>Olivar 14</ubicacion>
+            <hectareas>4.7</hectareas>
+            <produccionAnual>185.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>15</id>
+            <ubicacion>Olivar 15</ubicacion>
+            <hectareas>6.8</hectareas>
+            <produccionAnual>320.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>16</id>
+            <ubicacion>Olivar 16</ubicacion>
+            <hectareas>5.2</hectareas>
+            <produccionAnual>215.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>17</id>
+            <ubicacion>Olivar 17</ubicacion>
+            <hectareas>6.3</hectareas>
+            <produccionAnual>280.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>18</id>
+            <ubicacion>Olivar 18</ubicacion>
+            <hectareas>7.3</hectareas>
+            <produccionAnual>325.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>19</id>
+            <ubicacion>Olivar 19</ubicacion>
+            <hectareas>5.4</hectareas>
+            <produccionAnual>240.0</produccionAnual>
+        </Olivar>
+        <Olivar>
+            <id>20</id>
+            <ubicacion>Olivar 20</ubicacion>
+            <hectareas>6.9</hectareas>
+            <produccionAnual>310.0</produccionAnual>
+        </Olivar>
+    </Olivares>
+    <Producciones>
+        <Produccion>
+            <id>1</id>
+            <cuadrilla_id>1</cuadrilla_id>
+            <olivar_id>1</olivar_id>
+            <almazara_id>1</almazara_id>
+            <fecha>2023-10-01</fecha>
+            <cantidadRecolectada>150</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>2</id>
+            <cuadrilla_id>2</cuadrilla_id>
+            <olivar_id>2</olivar_id>
+            <almazara_id>2</almazara_id>
+            <fecha>2023-10-02</fecha>
+            <cantidadRecolectada>170</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>3</id>
+            <cuadrilla_id>3</cuadrilla_id>
+            <olivar_id>3</olivar_id>
+            <almazara_id>3</almazara_id>
+            <fecha>2023-10-03</fecha>
+            <cantidadRecolectada>160</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>4</id>
+            <cuadrilla_id>4</cuadrilla_id>
+            <olivar_id>4</olivar_id>
+            <almazara_id>4</almazara_id>
+            <fecha>2023-10-04</fecha>
+            <cantidadRecolectada>180</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>5</id>
+            <cuadrilla_id>5</cuadrilla_id>
+            <olivar_id>5</olivar_id>
+            <almazara_id>1</almazara_id>
+            <fecha>2023-10-05</fecha>
+            <cantidadRecolectada>200</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>6</id>
+            <cuadrilla_id>6</cuadrilla_id>
+            <olivar_id>6</olivar_id>
+            <almazara_id>2</almazara_id>
+            <fecha>2023-10-06</fecha>
+            <cantidadRecolectada>190</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>7</id>
+            <cuadrilla_id>7</cuadrilla_id>
+            <olivar_id>7</olivar_id>
+            <almazara_id>3</almazara_id>
+            <fecha>2023-10-07</fecha>
+            <cantidadRecolectada>175</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>8</id>
+            <cuadrilla_id>8</cuadrilla_id>
+            <olivar_id>8</olivar_id>
+            <almazara_id>4</almazara_id>
+            <fecha>2023-10-08</fecha>
+            <cantidadRecolectada>185</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>9</id>
+            <cuadrilla_id>9</cuadrilla_id>
+            <olivar_id>9</olivar_id>
+            <almazara_id>1</almazara_id>
+            <fecha>2023-10-09</fecha>
+            <cantidadRecolectada>165</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>10</id>
+            <cuadrilla_id>10</cuadrilla_id>
+            <olivar_id>10</olivar_id>
+            <almazara_id>2</almazara_id>
+            <fecha>2023-10-10</fecha>
+            <cantidadRecolectada>195</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>11</id>
+            <cuadrilla_id>1</cuadrilla_id>
+            <olivar_id>11</olivar_id>
+            <almazara_id>3</almazara_id>
+            <fecha>2023-10-11</fecha>
+            <cantidadRecolectada>180</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>12</id>
+            <cuadrilla_id>2</cuadrilla_id>
+            <olivar_id>12</olivar_id>
+            <almazara_id>4</almazara_id>
+            <fecha>2023-10-12</fecha>
+            <cantidadRecolectada>170</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>13</id>
+            <cuadrilla_id>1</cuadrilla_id>
+            <olivar_id>1</olivar_id>
+            <almazara_id>1</almazara_id>
+            <fecha>2024-10-01</fecha>
+            <cantidadRecolectada>150</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>14</id>
+            <cuadrilla_id>3</cuadrilla_id>
+            <olivar_id>1</olivar_id>
+            <almazara_id>2</almazara_id>
+            <fecha>2024-09-01</fecha>
+            <cantidadRecolectada>300</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>15</id>
+            <cuadrilla_id>1</cuadrilla_id>
+            <olivar_id>4</olivar_id>
+            <almazara_id>2</almazara_id>
+            <fecha>2021-02-01</fecha>
+            <cantidadRecolectada>600</cantidadRecolectada>
+        </Produccion>
+        <Produccion>
+            <id>16</id>
+            <cuadrilla_id>1</cuadrilla_id>
+            <olivar_id>4</olivar_id>
+            <almazara_id>2</almazara_id>
+            <fecha>2022-02-01</fecha>
+            <cantidadRecolectada>6000</cantidadRecolectada>
+        </Produccion>
+    </Producciones>
+    <Trabajadores>
+        <Trabajador>
+            <id>51</id>
+            <nombre>Trabajador 1</nombre>
+            <edad>25</edad>
+            <puesto>Recolector</puesto>
+            <salario>1200</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>52</id>
+            <nombre>Trabajador 2</nombre>
+            <edad>28</edad>
+            <puesto>Supervisor</puesto>
+            <salario>1500</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>53</id>
+            <nombre>Trabajador 3</nombre>
+            <edad>30</edad>
+            <puesto>Recolector</puesto>
+            <salario>1100</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>54</id>
+            <nombre>Trabajador 4</nombre>
+            <edad>22</edad>
+            <puesto>Recolector</puesto>
+            <salario>1150</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>55</id>
+            <nombre>Trabajador 5</nombre>
+            <edad>27</edad>
+            <puesto>Recolector</puesto>
+            <salario>1600</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>56</id>
+            <nombre>Trabajador 6</nombre>
+            <edad>26</edad>
+            <puesto>Recolector</puesto>
+            <salario>1300</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>57</id>
+            <nombre>Trabajador 7</nombre>
+            <edad>29</edad>
+            <puesto>Recolector</puesto>
+            <salario>1250</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>58</id>
+            <nombre>Trabajador 8</nombre>
+            <edad>24</edad>
+            <puesto>Supervisor</puesto>
+            <salario>1550</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>59</id>
+            <nombre>Trabajador 9</nombre>
+            <edad>31</edad>
+            <puesto>Recolector</puesto>
+            <salario>1200</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>60</id>
+            <nombre>Trabajador 10</nombre>
+            <edad>33</edad>
+            <puesto>Recolector</puesto>
+            <salario>1650</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>61</id>
+            <nombre>Trabajador 11</nombre>
+            <edad>26</edad>
+            <puesto>Recolector</puesto>
+            <salario>1100</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>62</id>
+            <nombre>Trabajador 12</nombre>
+            <edad>27</edad>
+            <puesto>Recolector</puesto>
+            <salario>1180</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>63</id>
+            <nombre>Trabajador 13</nombre>
+            <edad>28</edad>
+            <puesto>Recolector</puesto>
+            <salario>1190</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>64</id>
+            <nombre>Trabajador 14</nombre>
+            <edad>25</edad>
+            <puesto>Recolector</puesto>
+            <salario>1500</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>65</id>
+            <nombre>Trabajador 15</nombre>
+            <edad>34</edad>
+            <puesto>Recolector</puesto>
+            <salario>1300</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>66</id>
+            <nombre>Trabajador 16</nombre>
+            <edad>29</edad>
+            <puesto>Supervisor</puesto>
+            <salario>1600</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>67</id>
+            <nombre>Trabajador 17</nombre>
+            <edad>30</edad>
+            <puesto>Recolector</puesto>
+            <salario>1250</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>68</id>
+            <nombre>Trabajador 18</nombre>
+            <edad>22</edad>
+            <puesto>Recolector</puesto>
+            <salario>1100</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>69</id>
+            <nombre>Trabajador 19</nombre>
+            <edad>23</edad>
+            <puesto>Recolector</puesto>
+            <salario>1550</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>70</id>
+            <nombre>Trabajador 20</nombre>
+            <edad>31</edad>
+            <puesto>Recolector</puesto>
+            <salario>1400</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>71</id>
+            <nombre>Trabajador 21</nombre>
+            <edad>32</edad>
+            <puesto>Recolector</puesto>
+            <salario>1220</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>72</id>
+            <nombre>Trabajador 22</nombre>
+            <edad>26</edad>
+            <puesto>Recolector</puesto>
+            <salario>1500</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>73</id>
+            <nombre>Trabajador 23</nombre>
+            <edad>24</edad>
+            <puesto>Recolector</puesto>
+            <salario>1200</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>74</id>
+            <nombre>Trabajador 24</nombre>
+            <edad>35</edad>
+            <puesto>Recolector</puesto>
+            <salario>1300</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>75</id>
+            <nombre>Trabajador 25</nombre>
+            <edad>29</edad>
+            <puesto>Recolector</puesto>
+            <salario>1550</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>76</id>
+            <nombre>Trabajador 26</nombre>
+            <edad>33</edad>
+            <puesto>Recolector</puesto>
+            <salario>1200</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>77</id>
+            <nombre>Trabajador 27</nombre>
+            <edad>28</edad>
+            <puesto>Recolector</puesto>
+            <salario>1180</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>78</id>
+            <nombre>Trabajador 28</nombre>
+            <edad>30</edad>
+            <puesto>Supervisor</puesto>
+            <salario>1450</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>79</id>
+            <nombre>Trabajador 29</nombre>
+            <edad>27</edad>
+            <puesto>Recolector</puesto>
+            <salario>1250</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>80</id>
+            <nombre>Trabajador 30</nombre>
+            <edad>36</edad>
+            <puesto>Recolector</puesto>
+            <salario>1150</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>81</id>
+            <nombre>Trabajador 31</nombre>
+            <edad>23</edad>
+            <puesto>Recolector</puesto>
+            <salario>1600</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>82</id>
+            <nombre>Trabajador 32</nombre>
+            <edad>22</edad>
+            <puesto>Recolector</puesto>
+            <salario>1300</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>83</id>
+            <nombre>Trabajador 33</nombre>
+            <edad>29</edad>
+            <puesto>Supervisor</puesto>
+            <salario>1550</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>84</id>
+            <nombre>Trabajador 34</nombre>
+            <edad>31</edad>
+            <puesto>Recolector</puesto>
+            <salario>1100</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>85</id>
+            <nombre>Trabajador 35</nombre>
+            <edad>27</edad>
+            <puesto>Recolector</puesto>
+            <salario>1500</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>86</id>
+            <nombre>Trabajador 36</nombre>
+            <edad>34</edad>
+            <puesto>Recolector</puesto>
+            <salario>1250</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>87</id>
+            <nombre>Trabajador 37</nombre>
+            <edad>33</edad>
+            <puesto>Recolector</puesto>
+            <salario>1350</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>88</id>
+            <nombre>Trabajador 38</nombre>
+            <edad>28</edad>
+            <puesto>Supervisor</puesto>
+            <salario>1600</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>89</id>
+            <nombre>Trabajador 39</nombre>
+            <edad>26</edad>
+            <puesto>Recolector</puesto>
+            <salario>1180</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>90</id>
+            <nombre>Trabajador 40</nombre>
+            <edad>32</edad>
+            <puesto>Recolector</puesto>
+            <salario>1550</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>91</id>
+            <nombre>Trabajador 41</nombre>
+            <edad>24</edad>
+            <puesto>Recolector</puesto>
+            <salario>1250</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>92</id>
+            <nombre>Trabajador 42</nombre>
+            <edad>25</edad>
+            <puesto>Supervisor</puesto>
+            <salario>1450</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>93</id>
+            <nombre>Trabajador 43</nombre>
+            <edad>30</edad>
+            <puesto>Recolector</puesto>
+            <salario>1150</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>94</id>
+            <nombre>Trabajador 44</nombre>
+            <edad>35</edad>
+            <puesto>Supervisor</puesto>
+            <salario>1400</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>95</id>
+            <nombre>Trabajador 45</nombre>
+            <edad>23</edad>
+            <puesto>Recolector</puesto>
+            <salario>1200</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>96</id>
+            <nombre>Trabajador 46</nombre>
+            <edad>29</edad>
+            <puesto>Supervisor</puesto>
+            <salario>1500</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>97</id>
+            <nombre>Trabajador 47</nombre>
+            <edad>27</edad>
+            <puesto>Recolector</puesto>
+            <salario>1300</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>98</id>
+            <nombre>Trabajador 48</nombre>
+            <edad>31</edad>
+            <puesto>Supervisor</puesto>
+            <salario>1550</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>99</id>
+            <nombre>Trabajador 49</nombre>
+            <edad>34</edad>
+            <puesto>Recolector</puesto>
+            <salario>1250</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>100</id>
+            <nombre>Trabajador 50</nombre>
+            <edad>32</edad>
+            <puesto>Recolector</puesto>
+            <salario>1200</salario>
+        </Trabajador>
+        <Trabajador>
+            <id>101</id>
+            <nombre>Paco</nombre>
+            <edad>29</edad>
+            <puesto>Supervisor</puesto>
+            <salario>2100</salario>
+        </Trabajador>
+    </Trabajadores>
+</base>
